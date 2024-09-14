@@ -1,70 +1,22 @@
-# Getting Started with Create React App
+### 크래프트테크놀로지 프론트엔드 과제전형
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+### 개발 환경
 
-## Available Scripts
+- CRA
+- Javascript
+- Axios
+- ApexChartjs
 
-In the project directory, you can run:
+##### 1. react 에서 프록시 설정을 하여 API를 연결했습니다. <br> 전달해주신 서버실행 후 리액트 npm start로 실행하셔서 바로 데이터 연결이 가능합니다.
 
-### `npm start`
+##### 2. 금융 도매인에 대한 이해가 부족해서 시그널과 작업이 정확이 어떤것인지 이해를 못했습니다. 시그널 표시에 대한 요구조건은 생략하였습니다. (검색을 해도 잘 모르겠습니다 ㅎㅎ..)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+##### 3. 디자인과 페이지(Route)는 생략하였습니다. <br> 현회사에선 mui를 사용하기에 디자이너 없이 깔끔한 ui를 보일 수 있지만 해당 과제전형에선 사용하지 않았습니다. Route 또한 불필요하다 생각해서 사용하지 않고 한 페이지에 차트~~와 두 개의 테이블을 넣었습니다.~~
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+##### 4. Readme에 작성된 작업자 Get 호출에 더미데이터가 없습니다. <br> 또한 해당 api url이 잘못작성되어있습니다. Readme에는 /job이지만 실제 파이썬 코드에선 /job/list로 되어있습니다.
 
-### `npm test`
+##### 5. 시그널 디테일은 API 연결이 정상적으로 이루워지지 않고 404에러를 반환합니다. 파이썬코드에는 API가 있는거 같은데 보내주신 서버API테스트에서도 해당 API가 동작을 하지 않습니다.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+##### 6. 작업 등록에 대해서 어떠한 등록값을 등록해야할지 알 수가 없어 해당 기능 또한 구현하지 못했습니다. (start와 finish가 있는걸로 봐서 시작과 종료 시점인거 같은데 정확히 어떠한 데이터를 보내야할지 모르겠습니다.)
 
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+###### 능력이 부족하여 원하시는 기능구현을 모두 만족하지 못한 점 양해부탁드립니다. <br> 귀한 시간 내주셔서 과제만들어주셔서 감사합니다 :)
